@@ -10,14 +10,25 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-community/netinfo": "^11.4.1",
     "@react-navigation/bottom-tabs": "^7.0.13",
     "@react-navigation/elements": "^2.1.7",
     "@react-navigation/native": "^7.0.8",
     "@react-navigation/native-stack": "^7.1.9",
+    "@reduxjs/toolkit": "^2.4.0",
+    "axios": "^1.7.8",
+    "lodash": "^4.17.21",
     "react": "18.3.1",
     "react-native": "0.76.3",
+    "react-native-bootsplash": "^6.3.2",
+    "react-native-paper": "^5.12.5",
     "react-native-safe-area-context": "^4.14.0",
-    "react-native-screens": "^4.3.0"
+    "react-native-screens": "^4.3.0",
+    "react-native-size-matters": "^0.4.2",
+    "react-native-sqlite-storage": "^6.0.1",
+    "react-native-toast-notifications": "^3.4.0",
+    "react-native-vector-icons": "^10.2.0",
+    "react-redux": "^9.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
