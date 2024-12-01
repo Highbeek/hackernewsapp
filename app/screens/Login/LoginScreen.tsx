@@ -95,7 +95,7 @@ const LoginScreen = ({navigation}: any) => {
   return (
     <View style={styles.container}>
       <View style={styles.imgContainer}>
-        <Image source={require('../assets/logo.png')} style={styles.img} />
+        <Image source={require('../../assets/logo.png')} style={styles.img} />
       </View>
       <TextInput
         label="Username"
@@ -115,7 +115,8 @@ const LoginScreen = ({navigation}: any) => {
         mode="contained"
         onPress={handleLogin}
         style={styles.button}
-        disabled={!username || !password}>
+        // disabled={!username || !password}
+        >
         Login
       </Button>
 
@@ -123,7 +124,8 @@ const LoginScreen = ({navigation}: any) => {
         mode="outlined"
         onPress={handleRegister}
         style={styles.button}
-        disabled={!username || !password}>
+        disabled={!username || !password}
+        >
         Register
       </Button>
     </View>

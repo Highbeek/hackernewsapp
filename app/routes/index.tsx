@@ -1,11 +1,9 @@
 import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import RecentScreen from '../screens/recent/RecentScreen';
 import BottomNavigator from './BottomNavigator';
-import LoginScreen from './LoginScreen';
-import HomeScreen from '../screens/dashboard/HomeScreen';
 import AboutScreen from '../screens/about/AboutScreen';
 import StoryDetailScreen from '../screens/StoryDetailScreen';
+import LoginScreen from '../screens/Login/LoginScreen';
 
 const RootStack = createNativeStackNavigator();
 

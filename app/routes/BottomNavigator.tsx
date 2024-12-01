@@ -50,7 +50,7 @@ const UserNavigator = () => {
           flexDirection: 'row',
           // alignItems: 'center',
           justifyContent: 'space-between',
-          backgroundColor: '#cccc',
+          backgroundColor: '#fff',
           paddingTop: s(16),
           height: s(80),
         },
